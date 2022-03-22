@@ -11,7 +11,10 @@ squared = fav_num * fav_num
 
 print()
 # Greet the user
-print("Hi {}, you favourite number is {}".format(username, fav_num))
+print("Hi {}, your favourite number is {}".format(username, fav_num))
 print()
 # Output the results of doubling, halving 
 # and squaring their favourite number
+print("double {} is {}".format(fav_num, double))
+print("half {} is {}".format(fav_num, half))
+print("{} squared is {}".format(fav_num, squared))
